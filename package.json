@@ -1,0 +1,35 @@
+{
+  "name": "oaui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "entry.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack-dev-server --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kf701/oaui.git"
+  },
+  "keywords": [
+    "oaui"
+  ],
+  "author": "kf701",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kf701/oaui/issues"
+  },
+  "homepage": "https://github.com/kf701/oaui#readme",
+  "dependencies": {
+    "flux": "^3.1.2",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-react": "^6.22.0",
+    "webpack": "^2.2.1"
+  }
+}
