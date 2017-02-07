@@ -2,10 +2,10 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
 
-var MyPage = require('./components/MyPage');
+var Footer = require('./components/Footer');
 
 ReactDOM.render(
-    <MyPage />,
-    document.querySelector('#bodybox')
+    <Footer />,
+    document.querySelector('#footer')
 );
 
