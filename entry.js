@@ -1,10 +1,11 @@
 
 var React = require('react');
 var ReactDOM = require('react-dom');
-var MyButtonController = require('./components/MyButtonController');
+
+var MyPage = require('./components/MyPage');
 
 ReactDOM.render(
-    <MyButtonController/>,
+    <MyPage />,
     document.querySelector('#bodybox')
 );
 
