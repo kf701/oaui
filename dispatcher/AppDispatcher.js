@@ -5,13 +5,15 @@ var AppDispatcher = new Dispatcher();
 var HomePage = require('../components/HomePage');
 var TodoPage = require('../components/TodoPage');
 
-//var FooterStore = require('../stores/FooterStore');
+var NaviMenuStore = require('../stores/NaviMenuStore');
 
 AppDispatcher.register(function (action) {
-  switch(action.actionType) {
+  switch(action.actionType)
+  {
     case 'PAGE_CHANGE':
-      //FooterStore.menuSelect(action.pageid);
-      //FooterStore.emitChange();
+      NaviMenuStore.menuSelect(action.pageid);
+      NaviMenuStore.emitChange();
+
       var page = null;
       switch(action.pageid) {
           case 'home':
@@ -27,6 +29,7 @@ AppDispatcher.register(function (action) {
       if (page != null) {
           page.showMe();
       }
+
       break;
     default:
       console.log("unknow action type");

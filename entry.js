@@ -2,10 +2,10 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
 
-var Footer = require('./components/Footer');
+var NaviMenu = require('./components/NaviMenu');
 
 ReactDOM.render(
-    <Footer />,
+    <NaviMenu />,
     document.querySelector('#footer')
 );
 

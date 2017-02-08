@@ -1,7 +1,7 @@
 
 var AppDispatcher = require("../dispatcher/AppDispatcher");
 
-var FooterAction = {
+var NaviMenuAction = {
     handleClick:function(pageid){
         AppDispatcher.dispatch({
             actionType: 'PAGE_CHANGE',
@@ -10,4 +10,4 @@ var FooterAction = {
     }
 }
 
-module.exports = FooterAction;
+module.exports = NaviMenuAction;

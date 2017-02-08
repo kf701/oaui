@@ -23,6 +23,7 @@ html,body {margin:0; padding:0; font-size:13px; color:#333;}
 .footer .iconfont {font-size:1.8rem;}
 .footer .navbody  {text-align:center; padding:4px 0;border-left:1px solid #ddd;}
 .footer .navbody1 {border:none;}
+.footer .selected {background:#eee;}
 
 @media screen and (max-width: 767px) {
     #pagebody {width:100%;}
